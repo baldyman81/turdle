@@ -11,6 +11,6 @@
 
 ## Constraints
 
-* [ ] - can only use vanilla JS, no frameworks
-* [ ] - has to be rubbish
-* [ ] - have to complete it within 1 week in spare time
+* [x] - can only use vanilla JS, no frameworks
+* [x] - has to be rubbish
+* [x] - have to complete it within 1 week in spare time
