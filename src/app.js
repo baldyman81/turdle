@@ -2,17 +2,17 @@ const wordLibrary = ["abroad", "accept", "advice", "bright", "client", "jaguar",
     
 document.addEventListener("DOMContentLoaded", () => {
     createSquares();
-    getNewWord();
+    let randomNum = Math.floor(Math.random() * wordLibrary.length)
+    let wordOTD = wordLibrary[randomNum];
     let guessedWords = [[]];
     let availableSpace = 1;
     let guessedWordCount = 0;
+    
     const keys = document.querySelectorAll(".keyboard-row button");
 
-    function getNewWord() {
-        let randomNum = Math.floor(Math.random() * wordLibrary.length)
-        let wordOTD = wordLibrary[randomNum];
-        console.log(wordOTD);
-    }
+    
+        
+        
 
     function whatGuess() {
         const numberOfGuessedWords = guessedWords.length;
